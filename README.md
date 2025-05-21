@@ -11,3 +11,9 @@ Git Version: 2.43.0
 
 
 This is written how this is working.
+
+How to use this:
+i just need to run below file:
+```
+./installation_script_git.sh
+```
