@@ -1,0 +1,16 @@
+This is the files i need to install for working with git in terminal.
+This is same as running the below command in online computer:
+
+	sudo apt install git
+
+
+To download these i used this process below:
+
+
+sudo apt-get install --print-uris --yes git | grep ^\' | cut -d\' -f2 > packages.txt
+mkdir dependencies
+cd dependencies
+wget -i ../packages.txt
+
+
+* Then i will run the installation_scripts.sh which will just install the packages.
